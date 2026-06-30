@@ -1,0 +1,39 @@
+{
+  "name": "ngl-strike",
+  "version": "1.0.0",
+  "description": "Send multiple anonymous questions or messagesto NGL users with proxy rotation and session management.",
+  "main": "ngl-strike.js",
+  "bin": {
+    "ngl-strike": "./ngl-strike.js"
+  },
+  "scripts": {
+    "start": "node ngl-strike.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "ngl",
+    "anonymous",
+    "questions",
+    "spam",
+    "proxy",
+    "strike",
+    "automation"
+  ],
+  "author": "Mxhytz",
+  "license": "MIT",
+  "dependencies": {
+    "https-proxy-agent": "^9.1.0",
+    "socks-proxy-agent": "^10.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mxhytz/ngl-strike.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Mxhytz/ngl-strike/issues"
+  },
+  "homepage": "https://github.com/Mxhytz/ngl-strike#readme"
+}
