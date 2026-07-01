@@ -91,9 +91,9 @@ If you run the script **without arguments**, an interactive prompt will ask for 
 
 ## How it works
 
-1. **Session acquisition** – A GET request to `https://ngl.link/<username>` sets a session cookie and collects browser‑like headers. Random Mixpanel and Google Analytics cookies are generated to further mimic a real browser.
+1. **Session acquisition** : A GET request to `https://ngl.link/<username>` sets a session cookie and collects browser‑like headers. Random Mixpanel and Google Analytics cookies are generated to further mimic a real browser.
 
-2. **Message submission** – For each message, a POST request is sent to `https://ngl.link/api/submit` with the payload (username, question, device ID). Headers are randomised for each request to avoid easy detection.
+2. **Message submission** : For each message, a POST request is sent to `https://ngl.link/api/submit` with the payload (username, question, device ID). Headers are randomised for each request to avoid easy detection.
 
 3. **Response handling**  
    - `200` → success.  
